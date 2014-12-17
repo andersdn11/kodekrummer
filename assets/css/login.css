@@ -1,0 +1,56 @@
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+
+*{
+	padding:0;
+	margin:0;
+	font-family:Arial;
+}
+
+body, html{
+	background:#fff;
+}
+
+#container{
+	height: 70%;
+}
+
+img{
+	display: block;
+	margin: 50px auto 20px;
+}
+
+form{
+	max-width: 300px;
+	padding: 60px 50px 40px 50px;
+	margin: 50px auto;
+}
+
+label{
+	font-weight:bold;
+	text-align: left;
+	padding: 25px 0 10px;
+	font-size: 14px;
+	display: block;
+}
+
+input{
+	padding: 5px;
+	box-sizing:border-box;
+	margin: auto;
+	width: 100%;
+	font-size: 20px;
+}
+
+
+input[type="submit"]{
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px 0px;
+	margin: 30px 0px;
+	background:  #bbffad;
+	border: 1px solid #909090;
+	box-shadow: 0px 0px 5px #fff inset;
+}
