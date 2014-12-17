@@ -54,5 +54,9 @@ include('includes/_connect.php');
 		</div>
 		
 	</div>
+
+	<!-- Jquery Library -->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="assets/js/frontend.js"></script>
 </body>
 </html>
