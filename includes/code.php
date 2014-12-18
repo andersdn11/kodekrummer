@@ -2,8 +2,8 @@
 	
 	<div class="col-12">
 		<article>
-			<h1>TITLE HER</h1>
-			<p class="details">Sat i <a href="">HTML CSS</a> Lavet af <a href="">Anders</a> Oprettet Oktober 29 - <a href="">2 kommentarer</a></p>
+			<h1>Simple jQuery slider</h1>
+			<p class="details">In <a href="">HTML CSS</a> by <a href="">Anders</a> on <b>Oktober 29</b> with <a href="">2 comments</a></p>
 			
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -44,23 +44,101 @@
 
 	<div class="col-12">
 		<article>
-			Advertisemant
+			Advertisement
 		</article>
+	</div>
+
+<!-- COMMENTS START -->
+	<div class="col-12">
+		<article class="comments">
+			<h1>Comments</h1>
+			<hr>
+
+			<!-- ENKELT KOMMENTAR START -->
+			<div class="commentsAuthor">
+				<a href="#"><img src="#" alt="#" /></a>
+				<a href="#">Jessy92</a>
+			</div>
+
+			<div>
+			<time>Posted <b>5 days ago</b></time>
+
+				<p>Sed pellentesque faucibus sapien, sed pharetra magna consectetur id. 
+				Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+				Ut condimentum scelerisque blandit. Vestibulum ex magna, hendrerit eget ligula sed</p>
+			</div>
+			<div class="clearfix"></div>
+			<!-- ENKELT KOMMENTAR SLUT-->
+
+			<!-- ENKELT KOMMENTAR START -->
+			<div class="commentsAuthor">
+				<a href="#"><img src="#" alt="#" /></a>
+				<a href="#">Jessy92</a>
+			</div>
+
+			<div>
+			<time>Posted <b>4 months ago</b></time>
+
+				<p>Sed pellentesque faucibus sapien, sed pharetra magna consectetur id. 
+				Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+				Ut condimentum scelerisque blandit. Vestibulum ex magna, hendrerit eget ligula sed
+				Sed pellentesque faucibus sapien, sed pharetra magna consectetur id. 
+				Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+				Ut condimentum scelerisque blandit. Vestibulum ex magna, hendrerit eget ligula sed</p>
+			</div>
+			<div class="clearfix"></div>
+			<!-- ENKELT KOMMENTAR SLUT-->
+
+		</article>
+	</div>
+
+<!-- COMMENTS SLUT -->
+</div>
+
+
+<!-- ASIDE START-->
+<aside>
+	<div class="col-12">	
+		<section>
+			<h3>Author <a href="#">Anders</a></h3>
+			<img src="https://filmshotfreezer.files.wordpress.com/2011/07/untitled-1.jpg" alt="#">
+			<ul>
+				<li><a href="">> Authors profile</a></li>
+				<li><a href="">> Authors snippets</a></li>
+			</ul>
+			
+			
+		</section>
+			
 	</div>
 
 	<div class="col-12">
-		<article>
-			Comments
-		</article>
+		<section>
+			<h3>Related snippets</h3>
+			<ul>
+				<li><a href="">> Jquery easy slide</a></li>
+				<li><a href="">> slider 2.0</a></li>
+				<li><a href="">> Lorem ipsum</a></li>
+				<li><a href="">> Lorem ipsum33</a></li>
+				<li><a href="">> Lorem ipsum55</a></li>
+				<li><a href="">> Lorem ipsum322</a></li>
+				<li><a href="">> Lorem ipsum5666</a></li>
+				<li><a href="">> Lorem ipsum56</a></li>
+			</ul>
+		</section>
 	</div>
-</div>
 
-<aside>
-	<div class="col-12 asideSection">	
-			<p>advertisement</p>
+		<div class="col-12">
+		<section>
+			<p>Advertising</p>
+			<p>Advertising</p>
+			<p>Advertising</p>
+			<p>Advertising</p>
+		
+		</section>
 	</div>
 
-	<div class="col-12 asideSection">	
-			<p>Dummy Data Dummy Data Dummy Data Dummy Data Dummy Data Dummy Data</p>
-	</div>
+	<!-- ASIDE SLUT -->
+
+	<div class="clearfix"></div>
 </aside>
