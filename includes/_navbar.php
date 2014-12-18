@@ -24,7 +24,7 @@
 			
 			<ul>
 				<li>
-					<a href="#" class="btn">Login</a>
+					<a href="#" class="btn" id="loginBtn">Login</a>
 					<form action="includes/login.php" method="post">
 						<label>Brugernavn</label>
 						<input name="user" type="text">

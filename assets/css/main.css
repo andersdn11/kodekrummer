@@ -4,7 +4,7 @@ COLORS
 
 GRØN - #5bb85d;
 GRÅ border - #eaeaea;
-
+black - #222123;
 
 */
 
@@ -17,12 +17,13 @@ GRÅ border - #eaeaea;
 |||||||||||||||||||||||||||||||||||||||||||||||||||
 |||||||||||||||||||||||||||||||||||||||||||||||||*/
 
-@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,600,700,800,900,400,300);
 
 *{
 	padding:0;
 	margin:0;
 	font-family: raleway;
+
 }
 
 body{
@@ -36,7 +37,7 @@ footer{
 }
 
 .container{
-	width: 1100px;
+	width: 1300px;
 	margin: auto;
 }
 
@@ -129,12 +130,30 @@ footer{
 	float: left!important;
 }
 
-
+hr{
+	margin: 0 0 15px 0;
+}
 /* COLORS */
+
+
 
 /* BUTTONS */
 
+.joinBtn {
+	background-color: #5bb85d;
+	color: white;
+	padding: 10px;
+	border-radius: 2px;
+	text-align: center;
+	display: block;
+	width: 70px;
+	margin: 15px auto 0 auto;
+}
 
+.joinBtn:hover {
+	background-color: #222123;
+	text-decoration: none;
+}
 
 /* FORM STYLING */
 
@@ -155,6 +174,11 @@ label, input{
 input[type="submit"]{
 	padding: 5px 15px;
 	margin-top: 20px;
+}
+
+textarea{
+	width: 100%;
+	min-height: 100px;
 }
 
 
@@ -197,7 +221,7 @@ nav ul li a{
 	text-decoration: none;
 }
 
-nav ul li:hover a{
+nav ul li:hover > a{
 	color: #fff;
 	text-decoration: none;
 	background: #222123;
@@ -217,21 +241,22 @@ ul form{
 	display: none;
 }
 
-ul li:hover > form{
- display: block;
-}
+/*ul li:hover > form{
+ display: none;
+}*/
 
 nav ul:nth-child(2){
 	float: right;
 }
 
-nav ul:nth-child(2) li:hover a{
+nav ul:nth-child(2) li:hover > a{
 	background: #5bb85d;
 }
 
 ul form input[type="submit"]{
 	padding: 5px 15px;
 	margin-top: 20px;
+	cursor: pointer;
 }
 
 nav ul li form a{
@@ -286,6 +311,9 @@ header img{
 	background: url(../img/logout.png) center center no-repeat #5bb85d;
 }
 
+.logout:hover, .setting:hover, .profile:hover{
+	background-color: #222123;
+}
 
 
 /* SEARCH FORM */
@@ -318,6 +346,11 @@ header input[type="submit"]{
 	background: url(../img/search.png) center center no-repeat #5bb85d;
 	background-size: 70% 70%;
 	margin:0;
+	cursor: pointer;
+}
+
+header input[type="submit"]:hover{
+	background-color: #222123;
 }
 
 /*|||||||||||||||||||||||||||||||||||||||||||||||||
@@ -332,7 +365,7 @@ header input[type="submit"]{
 	padding: 5px;
 	border: 1px solid #eaeaea;
 	border-radius: 2px;
-	margin: 5px -5px 5px 0px!important;
+	margin: 5px 0px 0px 0px!important;
 }
 
 
@@ -344,14 +377,14 @@ main{
 article{
 	background: #fff;
 	padding:20px;
-	margin: 5px 5px 0 0;
+	margin: 10px 10px 0 0;
 	border: 1px solid #eaeaea;
 }
 
 section{
 	background: #fff;
 	padding:15px;
-	margin: 5px 5px 0 0;
+	margin: 10px 10px 0 0;
 	border: 1px solid #eaeaea;
 }
 
@@ -360,6 +393,12 @@ section{
 .snippet img{
 	float: left;
 	margin-right: 10px;
+	
+}
+
+.snippet a > img {
+	width: 125px;
+	height: 125px;
 }
 
 .snippet .status img{
@@ -397,6 +436,7 @@ section{
 
 .details{
 	margin:  5px 0 0 0;
+	font-size: 14px;
 }
 
 
@@ -407,7 +447,7 @@ section{
 
 .sort{
 	float: right;
-	margin: 15px 10px;
+	margin: 10px 10px;
 }
 
 .sort > *{
@@ -417,6 +457,31 @@ section{
 	line-height: 30px;
 }
 
+/*////////// COMMENTS ///////////////////////////*/
+
+.commentsAuthor{
+	width: 100px;
+	float: left;
+	text-align: center;
+}
+
+.comments img{
+	width: 100%;
+}
+
+time{
+	font-style: italic;
+	font-size: 12px;
+}
+.comments div{
+	padding: 10px 10px 10px 0;
+}
+
+.comments div p{
+	font-size: 14px;
+	
+	line-height: 22px;
+}
 
 /*|||||||||||||||||||||||||||||||||||||||||||||||||
 |||||||||||||||||||||||||||||||||||||||||||||||||||
@@ -433,7 +498,97 @@ aside{
 
 
 aside section{
-	margin: 5px 0;
+	margin: 10px 0;
+}
+
+aside section img{
+	width: 100%;
+}
+
+aside section h3{
+	font-weight: 700;
+}
+
+
+aside section li{
+	list-style-type: none;
+	border-bottom: 1px solid rgb(208, 208, 208);
+	
+}
+
+aside section li a{
+  display: block;
+  font-weight: 600;
+  padding: 10px;
+  color: #222123;
+}
+
+aside section li a::first-letter{
+  color: #5bb85d;
+}
+
+.asideCatPage, .asideFrontPage {
+	margin-top: 61px;
+}
+
+.asideFrontPage li p{
+	line-height: 40px;
+	font-weight: 600;
+}
+
+.asideFrontPage li span{
+	float: right;
+	color: #222123;
+	background: #eaeaea;
+	border-radius: 300px;
+	padding: 10px;
+	line-height: normal;
+}
+
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||||
+
+	PROFILE PAGE 
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||
+|||||||||||||||||||||||||||||||||||||||||||||||||*/
+.col-3 figure{
+	margin: 10px 10px 0 0;
+}
+
+.col-3 figure img{
+width: 100%;
+background: #F0F0F0;
+border: 1px solid #eaeaea;
+}
+
+.col-9 .stats{
+	min-height: 205px;
+}
+
+.activity{
+	max-height: 250px;
+	overflow: auto;
+}
+
+.stats h2{
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+.stats p{
+	font-size: 16px;
+}
+
+.stats img{
+	margin: 6px 10px 0 0;
+	width: 20px;
+	float: left;
+}
+
+.stats span{
+	line-height: 35px;
 }
 
 
@@ -446,6 +601,9 @@ aside section{
 |||||||||||||||||||||||||||||||||||||||||||||||||*/
 
 /* TYPOGRAPH */
+
+
+
 a{
 	color: #5bb85d;
 	font-weight: bolder;
@@ -457,8 +615,9 @@ a:hover{
 }
 
 
+
 p{
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 28px;
 	margin:20px 0; 
 }
@@ -467,19 +626,23 @@ h1{
 	display: inline-block;
 	float: left;
 	line-height: 61px;
+	font-weight: 900;
+	color:  #222123;
 }
 
 article h1{
 	float: none;
-	line-height: 0px;
+	line-height: 30px;
+	font-size: 30px;
+	color:  #222123;
 }
 
 /* Specific TYPO*/
 
 section p{
 	margin: 5px 0;
-	font-size: 12px;
-	line-height: 14px;
+	font-size: 14px;
+	line-height: 18px;
 }
 
 section .author p{
@@ -504,7 +667,7 @@ section h2{
 
 
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1300px) {
     .container {
         width: 100%;
     }

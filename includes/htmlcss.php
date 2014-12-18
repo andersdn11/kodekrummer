@@ -17,7 +17,7 @@
 	<div class="clearfix">
 		<div class="col-6">
 			<section class="snippet">		
-				<a href="#"><img src="asf" width="98" height="98"></a>
+				<a href="#"><img src="#" class="thumbnail"></a>
 				<a href="#"><h2>Simple jQuery slider</h2></a>
 				<p>
 					Lorem ipsum dolor sit amet, 
@@ -27,7 +27,7 @@
 					Ludus nominati quo in. 
 					Essent alienum salutatus quo no, 
 					vidisse tamquam te vix. 
-					... <a class="readmore" href="#">READ MORE</a>
+					... <a class="readmore" href="http://localhost/kodekrummer/index.php?side=code">READ MORE</a>
 				</p>
 				
 				<div class="details col-12">
@@ -48,7 +48,7 @@
 
 		<div class="col-6">
 			<section class="snippet">		
-				<a href="#"><img src="asf" width="98" height="98"></a>
+				<a href="#"><img src="" width="98" height="98"></a>
 				<a href="#"><h2>Simple jQuery slider</h2></a>
 				<p>
 					Lorem ipsum dolor sit amet, 
@@ -58,7 +58,7 @@
 					Ludus nominati quo in. 
 					Essent alienum salutatus quo no, 
 					vidisse tamquam te vix. 
-					... <a class="readmore" href="#">READ MORE</a>
+					... <a class="readmore" href="http://localhost/kodekrummer/index.php?side=code">READ MORE</a>
 				</p>
 				
 				<div class="details col-12">
@@ -75,11 +75,339 @@
 				</div>
 			</section>
 		</div>
+
+		<div class="col-6">
+			<section class="snippet">		
+				<a href="#"><img src="#" class="thumbnail"></a>
+				<a href="#"><h2>Simple jQuery slider</h2></a>
+				<p>
+					Lorem ipsum dolor sit amet, 
+					sonet mucius diceret mea ei, 
+					no mei vivendum assueverit 
+					concludaturque. 
+					Ludus nominati quo in. 
+					Essent alienum salutatus quo no, 
+					vidisse tamquam te vix. 
+					... <a class="readmore" href="http://localhost/kodekrummer/index.php?side=code">READ MORE</a>
+				</p>
+				
+				<div class="details col-12">
+					<div class="author left">
+						<p>By <a href="">CodeBadass</a> on 13 oct. 2014</p>
+					</div>
+
+					<div class="status right">
+						<span>21</span><img src="assets/img/like.png">
+
+						<span>41</span><img src="assets/img/comments.png">
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				
+			</section>
+		</div>
+
+		<div class="col-6">
+			<section class="snippet">		
+				<a href="#"><img src="" width="98" height="98"></a>
+				<a href="#"><h2>Simple jQuery slider</h2></a>
+				<p>
+					Lorem ipsum dolor sit amet, 
+					sonet mucius diceret mea ei, 
+					no mei vivendum assueverit 
+					concludaturque. 
+					Ludus nominati quo in. 
+					Essent alienum salutatus quo no, 
+					vidisse tamquam te vix. 
+					... <a class="readmore" href="http://localhost/kodekrummer/index.php?side=code">READ MORE</a>
+				</p>
+				
+				<div class="details col-12">
+					<div class="author left">
+						<p>By <a href="">CodeBadass</a> on 13 oct. 2014</p>
+					</div>
+
+					<div class="status right">
+						<span>21</span><img src="assets/img/like.png">
+
+						<span>41</span><img src="assets/img/comments.png">
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</section>
+		</div>
+
+
+
+
+		<div class="col-6">
+			<section class="snippet">		
+				<a href="#"><img src="#" class="thumbnail"></a>
+				<a href="#"><h2>Simple jQuery slider</h2></a>
+				<p>
+					Lorem ipsum dolor sit amet, 
+					sonet mucius diceret mea ei, 
+					no mei vivendum assueverit 
+					concludaturque. 
+					Ludus nominati quo in. 
+					Essent alienum salutatus quo no, 
+					vidisse tamquam te vix. 
+					... <a class="readmore" href="http://localhost/kodekrummer/index.php?side=code">READ MORE</a>
+				</p>
+				
+				<div class="details col-12">
+					<div class="author left">
+						<p>By <a href="">CodeBadass</a> on 13 oct. 2014</p>
+					</div>
+
+					<div class="status right">
+						<span>21</span><img src="assets/img/like.png">
+
+						<span>41</span><img src="assets/img/comments.png">
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				
+			</section>
+		</div>
+
+		<div class="col-6">
+			<section class="snippet">		
+				<a href="#"><img src="" width="98" height="98"></a>
+				<a href="#"><h2>Simple jQuery slider</h2></a>
+				<p>
+					Lorem ipsum dolor sit amet, 
+					sonet mucius diceret mea ei, 
+					no mei vivendum assueverit 
+					concludaturque. 
+					Ludus nominati quo in. 
+					Essent alienum salutatus quo no, 
+					vidisse tamquam te vix. 
+					... <a class="readmore" href="http://localhost/kodekrummer/index.php?side=code">READ MORE</a>
+				</p>
+				
+				<div class="details col-12">
+					<div class="author left">
+						<p>By <a href="">CodeBadass</a> on 13 oct. 2014</p>
+					</div>
+
+					<div class="status right">
+						<span>21</span><img src="assets/img/like.png">
+
+						<span>41</span><img src="assets/img/comments.png">
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</section>
+		</div>
+
+<!-- REKLAME -->
+<div class="clearfix"></div>
+	<div class="col-12">
+		<article>
+			Advertisement
+		</article>
+	</div>
+<div class="clearfix"></div>
+<!-- REKLAME SLUT -->
+
+
+		<div class="col-6">
+			<section class="snippet">		
+				<a href="#"><img src="#" class="thumbnail"></a>
+				<a href="#"><h2>Simple jQuery slider</h2></a>
+				<p>
+					Lorem ipsum dolor sit amet, 
+					sonet mucius diceret mea ei, 
+					no mei vivendum assueverit 
+					concludaturque. 
+					Ludus nominati quo in. 
+					Essent alienum salutatus quo no, 
+					vidisse tamquam te vix. 
+					... <a class="readmore" href="http://localhost/kodekrummer/index.php?side=code">READ MORE</a>
+				</p>
+				
+				<div class="details col-12">
+					<div class="author left">
+						<p>By <a href="">CodeBadass</a> on 13 oct. 2014</p>
+					</div>
+
+					<div class="status right">
+						<span>21</span><img src="assets/img/like.png">
+
+						<span>41</span><img src="assets/img/comments.png">
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				
+			</section>
+		</div>
+
+		<div class="col-6">
+			<section class="snippet">		
+				<a href="#"><img src="" width="98" height="98"></a>
+				<a href="#"><h2>Simple jQuery slider</h2></a>
+				<p>
+					Lorem ipsum dolor sit amet, 
+					sonet mucius diceret mea ei, 
+					no mei vivendum assueverit 
+					concludaturque. 
+					Ludus nominati quo in. 
+					Essent alienum salutatus quo no, 
+					vidisse tamquam te vix. 
+					... <a class="readmore" href="http://localhost/kodekrummer/index.php?side=code">READ MORE</a>
+				</p>
+				
+				<div class="details col-12">
+					<div class="author left">
+						<p>By <a href="">CodeBadass</a> on 13 oct. 2014</p>
+					</div>
+
+					<div class="status right">
+						<span>21</span><img src="assets/img/like.png">
+
+						<span>41</span><img src="assets/img/comments.png">
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</section>
+		</div>
+
+
+
+
+		<div class="col-6">
+			<section class="snippet">		
+				<a href="#"><img src="#" class="thumbnail"></a>
+				<a href="#"><h2>Simple jQuery slider</h2></a>
+				<p>
+					Lorem ipsum dolor sit amet, 
+					sonet mucius diceret mea ei, 
+					no mei vivendum assueverit 
+					concludaturque. 
+					Ludus nominati quo in. 
+					Essent alienum salutatus quo no, 
+					vidisse tamquam te vix. 
+					... <a class="readmore" href="http://localhost/kodekrummer/index.php?side=code">READ MORE</a>
+				</p>
+				
+				<div class="details col-12">
+					<div class="author left">
+						<p>By <a href="">CodeBadass</a> on 13 oct. 2014</p>
+					</div>
+
+					<div class="status right">
+						<span>21</span><img src="assets/img/like.png">
+
+						<span>41</span><img src="assets/img/comments.png">
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				
+			</section>
+		</div>
+
+		<div class="col-6">
+			<section class="snippet">		
+				<a href="#"><img src="" width="98" height="98"></a>
+				<a href="#"><h2>Simple jQuery slider</h2></a>
+				<p>
+					Lorem ipsum dolor sit amet, 
+					sonet mucius diceret mea ei, 
+					no mei vivendum assueverit 
+					concludaturque. 
+					Ludus nominati quo in. 
+					Essent alienum salutatus quo no, 
+					vidisse tamquam te vix. 
+					... <a class="readmore" href="http://localhost/kodekrummer/index.php?side=code">READ MORE</a>
+				</p>
+				
+				<div class="details col-12">
+					<div class="author left">
+						<p>By <a href="">CodeBadass</a> on 13 oct. 2014</p>
+					</div>
+
+					<div class="status right">
+						<span>21</span><img src="assets/img/like.png">
+
+						<span>41</span><img src="assets/img/comments.png">
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</section>
+		</div>
+
+
+
+
+		<div class="col-6">
+			<section class="snippet">		
+				<a href="#"><img src="#" class="thumbnail"></a>
+				<a href="#"><h2>Simple jQuery slider</h2></a>
+				<p>
+					Lorem ipsum dolor sit amet, 
+					sonet mucius diceret mea ei, 
+					no mei vivendum assueverit 
+					concludaturque. 
+					Ludus nominati quo in. 
+					Essent alienum salutatus quo no, 
+					vidisse tamquam te vix. 
+					... <a class="readmore" href="http://localhost/kodekrummer/index.php?side=code">READ MORE</a>
+				</p>
+				
+				<div class="details col-12">
+					<div class="author left">
+						<p>By <a href="">CodeBadass</a> on 13 oct. 2014</p>
+					</div>
+
+					<div class="status right">
+						<span>21</span><img src="assets/img/like.png">
+
+						<span>41</span><img src="assets/img/comments.png">
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				
+			</section>
+		</div>
+
+		<div class="col-6">
+			<section class="snippet">		
+				<a href="#"><img src="" width="98" height="98"></a>
+				<a href="#"><h2>Simple jQuery slider</h2></a>
+				<p>
+					Lorem ipsum dolor sit amet, 
+					sonet mucius diceret mea ei, 
+					no mei vivendum assueverit 
+					concludaturque. 
+					Ludus nominati quo in. 
+					Essent alienum salutatus quo no, 
+					vidisse tamquam te vix. 
+					... <a class="readmore" href="http://localhost/kodekrummer/index.php?side=code">READ MORE</a>
+				</p>
+				
+				<div class="details col-12">
+					<div class="author left">
+						<p>By <a href="">CodeBadass</a> on 13 oct. 2014</p>
+					</div>
+
+					<div class="status right">
+						<span>21</span><img src="assets/img/like.png">
+
+						<span>41</span><img src="assets/img/comments.png">
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</section>
+		</div>
+
+
+
 	</div>
 </div>
 
 
-<aside class="slightgreen">
+<aside class="asideCatPage">
 	<div class="col-12">	
 		<section>
 			<p>advertisement</p>

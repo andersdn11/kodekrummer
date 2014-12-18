@@ -10,7 +10,9 @@ include('includes/_connect.php');
 <meta name="description" content="Look up snippets in HTML/CSS, Javascript, SQL, PHP, .NET and more">
 <meta name="author" content="Caspar">
 <title>Ever expanding snippets library</title>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/zenburn.min.css"> <!--highlight.js -->
 <link type="text/css" rel="stylesheet" href="assets/css/main.css">
+
 
 </head>
 
@@ -34,7 +36,7 @@ include('includes/_connect.php');
 		</div>
 	</header>
 	
-	<?php include('includes/_navbar.php'); //ÆNDRING ?>
+	<?php include('includes/_navbar.php'); ?>
 
 	<div class="container">
 
@@ -54,5 +56,14 @@ include('includes/_connect.php');
 		</div>
 		
 	</div>
+
+	<!-- Jquery Library -->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+	<!-- HIGHLIGHT.js -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	<script src="assets/js/frontend.js"></script>
+
 </body>
 </html>
