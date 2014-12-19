@@ -102,6 +102,7 @@
 			</div>
 			<div class="clearfix"></div>
 			<!-- ENKELT KOMMENTAR SLUT-->
+<<<<<<< HEAD
  
 			<h3>Join the conversation</h3><hr>
 			<p><i>Commenting as <a href="">Anders</a></i></p>
@@ -109,6 +110,8 @@
 				<textarea name="kommentar"></textarea>
 				<input type="submit" name="addComment" value="Add comment">
 			</form>
+=======
+>>>>>>> master
 
 		</article>
 	</div>
@@ -122,7 +125,11 @@
 	<div class="col-12">	
 		<section>
 			<h3>Author <a href="#">Anders</a></h3>
+<<<<<<< HEAD
 			<img src="assets/img/profilePic.jpg" alt="#">
+=======
+			<img src="https://filmshotfreezer.files.wordpress.com/2011/07/untitled-1.jpg" alt="#">
+>>>>>>> master
 			<ul>
 				<li><a href="">> Authors profile</a></li>
 				<li><a href="">> Authors snippets</a></li>
@@ -131,6 +138,7 @@
 			
 		</section>
 			
+<<<<<<< HEAD
 	</div>
 
 	<div class="col-12">
@@ -149,6 +157,26 @@
 		</section>
 	</div>
 
+=======
+	</div>
+
+	<div class="col-12">
+		<section>
+			<h3>Related snippets</h3>
+			<ul>
+				<li><a href="">> Jquery easy slide</a></li>
+				<li><a href="">> slider 2.0</a></li>
+				<li><a href="">> Lorem ipsum</a></li>
+				<li><a href="">> Lorem ipsum33</a></li>
+				<li><a href="">> Lorem ipsum55</a></li>
+				<li><a href="">> Lorem ipsum322</a></li>
+				<li><a href="">> Lorem ipsum5666</a></li>
+				<li><a href="">> Lorem ipsum56</a></li>
+			</ul>
+		</section>
+	</div>
+
+>>>>>>> master
 		<div class="col-12">
 		<section>
 			<p>Advertising</p>

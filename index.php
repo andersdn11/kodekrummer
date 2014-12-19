@@ -59,11 +59,15 @@ include('includes/_connect.php');
 
 	<!-- Jquery Library -->
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<<<<<<< HEAD
 
 	<!-- HIGHLIGHT.js -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
 	<script>hljs.initHighlightingOnLoad();</script>
 	<script src="assets/js/frontend.js"></script>
 
+=======
+	<script src="assets/js/frontend.js"></script>
+>>>>>>> master
 </body>
 </html>

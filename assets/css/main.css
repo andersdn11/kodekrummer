@@ -365,7 +365,11 @@ header input[type="submit"]:hover{
 	padding: 5px;
 	border: 1px solid #eaeaea;
 	border-radius: 2px;
+<<<<<<< HEAD
 	margin: 5px 0px 0px 0px!important;
+=======
+	margin: 10px 0px 0px 0px!important;
+>>>>>>> master
 }
 
 
@@ -543,6 +547,7 @@ aside section li a::first-letter{
 	border-radius: 300px;
 	padding: 10px;
 	line-height: normal;
+<<<<<<< HEAD
 }
 
 
@@ -589,6 +594,8 @@ border: 1px solid #eaeaea;
 
 .stats span{
 	line-height: 35px;
+=======
+>>>>>>> master
 }
 
 
