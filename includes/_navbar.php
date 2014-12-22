@@ -1,12 +1,15 @@
 <nav class="clearfix">
 		<div class="container">
 			<ul>
+				<li><a href="index.php?side=forside">Forside</a></li>
 			<?php
-				$sql = "SELECT * FROM navigation";
+				$sql = "SELECT * FROM category";
 				$perform = mysqli_query($con, $sql);
 
+
+
 				while($row = mysqli_fetch_assoc($perform)){?>
-					<li><a href="index.php?side=<?php echo $row['link']; ?>"><?php echo $row['navn']; ?></a></li>
+					<li><a href="index.php?side=category&id=<?php echo $row['category_id']; ?>"><?php echo $row['category_name']; ?></a></li>
 			<?php } 
 
 			/*$myfile = fopen("newfile.php", "w") or die("Unable to open file!");
@@ -24,7 +27,7 @@
 			
 			<ul>
 				<li>
-					<a href="#" class="btn">Login</a>
+					<a href="#" class="btn" id="loginBtn">Login</a>
 					<form action="includes/login.php" method="post">
 						<label>Brugernavn</label>
 						<input name="user" type="text">
